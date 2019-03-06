@@ -1,0 +1,59 @@
+.blog {
+
+    font-family: $font-display;
+   padding: 2rem 0 2rem 0;
+
+   &__text {
+       color: $color-grey-light-1;
+       
+   }
+
+   &__card {
+       padding: 0;
+   }
+
+   &__card-heading {
+       color: $color-primary-dark-1;
+   }
+
+   &__card-text {
+       color: $color-grey-light-1;
+   }
+
+   &__footer-text {
+    color: $color-primary-dark-1;
+   }
+}
+
+.blog-sm {
+
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+   
+
+    &__card-body {
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    
+    }
+
+    &__card-title {
+        color: $color-primary-dark-1;
+    }
+
+    &__text {
+        color: $color-grey-light-1;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    &__footer {
+        color: $color-primary-dark-1 !important;
+    }
+}

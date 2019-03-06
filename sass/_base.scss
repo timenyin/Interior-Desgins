@@ -1,0 +1,58 @@
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #B28451;
+$color-primary-dark-1: rgb(245, 136, 12);
+$color-primary-dark-2: rgb(247, 211, 9);
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-light-3: hsl(0, 8%, 77%);
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+
+
+
+$color-bost-grey-light-1:gray;
+
+
+$color-header-firebrick:firebrick;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+//=========== Heading size =======================
+
+$head-6 : h6;
+
+*,
+*::before,
+*::after {
+
+        padding: 0;
+        margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-family:$font-primary; 
+    color:$color-grey-light-3; 
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+p {
+    font-family:$font-primary; 
+}

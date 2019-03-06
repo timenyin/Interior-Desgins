@@ -1,0 +1,275 @@
+.fa-bars{
+    color: $color-primary-dark !important;
+}
+
+.fa-arrow-circle-down {
+    color: $color-primary-dark !important;
+}
+
+
+.ioc{
+    color:$color-grey-light-1;
+    opacity: 0.7s;
+    
+}
+
+
+.ioc:hover{
+    color:$color-primary-dark-1;
+    cursor: pointer;
+    transition: 0.7s;
+    opacity: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 15px;
+    height: 90px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.fa-icon {
+    font-size: 1.1rem;
+    color: $color-primary-dark-2;
+}
+
+.fa-icon:hover {
+    color: $color-primary-dark-1;
+}
+
+h1 {
+    text-align: center;
+    color:$color-header-firebrick !important;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+h1::after{
+    content: '';
+    background:$color-header-firebrick;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+
+#home-heading-2 h3 a {
+    color: $color-grey-light-1 !important;
+}
+ 
+#home-heading-2 h3 a:hover {
+    color: $color-primary-dark-1 !important;
+
+}
+
+
+ h3::after{
+    content: '';
+    background:$color-grey-light-1;
+    display: block;
+    height: 2px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+
+h4 {
+    color: $color-grey-light-1;
+}
+
+
+
+//============================== carousel-item =====================================
+.carousel-item {
+    height:550px;
+}
+.carousel-image-1 {
+    background: url('../img/bodyimg1.jpg');
+    background-size: cover;
+
+}
+
+.carousel-image-2 {
+    background: url('../img/Homepage-Banner_GIF-3.gif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carousel-image-3 {
+    background: url('../img/ban_a.jpg');
+    background-size: cover;
+   
+
+}
+
+//================================ funirture for carousel-image-ft3==============================
+
+.carousel-image-ft1 {
+     background: url('../img/liv8.jpeg');
+    background-size: cover;
+}
+
+.carousel-image-ft2 {
+     background: url('../img/liv2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-ft3 {
+     background: url('../img/liv3.jpg');
+    background-size: cover;
+}
+
+//================================ Dining for carousel-image-ft3 ==============================
+
+.carousel-image-din1 {
+      background: url('../img/din-slider1.jpeg');
+    background-size: cover;
+}
+
+ .carousel-image-din2 {
+      background: url('../img/din-slider2.jpeg');
+    background-size: cover;
+}
+
+.carousel-image-din3 {
+      background: url('../img/din-slider3.jpeg');
+    background-size: cover;
+}
+
+//================================ BedRoms for carousel-image-ft3 ==============================
+
+.carousel-image-bed1 {
+      background: url('../img/bed-slider2.jpeg');
+    background-size: cover;
+}
+
+.carousel-image-bed2 {
+      background: url('../img/bed-slider1.jpeg');
+    background-size: cover;
+}
+
+.carousel-image-bed3 {
+      background: url('../img/bed-slider3.jpeg');
+    background-size: cover;
+}
+
+
+//================================ Offices for carousel-image-ft3 ==============================
+
+.carousel-image-off1 {
+      background: url('../img/off-slide1.jpeg');
+    background-size: cover;
+}
+
+.carousel-image-off2  {
+      background: url('../img/off-slide2.jpeg');
+    background-size: cover;
+}
+
+.carousel-image-off3  {
+      background: url('../img/off-slide3.jpeg');
+    background-size: cover;
+}
+
+
+
+
+
+//================================ Offices for image-audiophile-1 ==============================
+
+.carousel-image-audiophile-1 {
+    background: url('../img/autoSlider1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-audiophile-2  {
+    background: url('../img/slider2.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+//================================ Offices for image-interior ==============================
+
+.carousel-image-interior-1 {
+    background: url('../img/interoblogsli1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-interior-2  {
+    background: url('../img/interoblogsli2.jpg');
+  background-size: cover;
+}
+
+
+
+
+//================================ Offices for carousel-image-making-1 ==============================
+
+.carousel-image-making-1 {
+    background: url('../img/making1.jpeg');
+  background-size: cover;
+}
+
+.carousel-image-making-2  {
+    background: url('../img/making2.jpeg');
+  background-size: cover;
+}
+
+
+//================================ Offices for carousel-image-making-1 ==============================
+
+.carousel-image-homepage-1 {
+    background:linear-gradient(rgba(20, 26, 26, 0.3),rgba(20, 16, 16, 0.3)),
+    url('../img/din-slider1.jpeg');
+     background-size: cover;
+}
+
+.carousel-image-homepage-2  {
+     background:linear-gradient(rgba(20, 26, 26, 0.3),rgba(20, 16, 16, 0.3)),
+    url('../img/nightstand-set4.jpg');
+  background-size: cover;
+}
+
+
+.carousel-image-homepage-3  {
+    background:linear-gradient(rgba(20, 26, 26, 0.3),rgba(20, 16, 16, 0.3)),
+    url('../img/carousel-image-homepage3.jpeg');
+  background-size: cover;
+}
+
+.carousel-image-homepage-4  {
+     background:linear-gradient(rgba(20, 26, 26, 0.3),rgba(20, 16, 16, 0.3)),
+    url('../img/carousel-image-homepage4.jpeg');
+    background-size: cover;
+}
+
+//============================== carousel-item =====================================
+
+.carousel-item-home {
+     height:670px;
+     border-bottom: 3px solid firebrick;
+}
+
+
+
+
+
+
+
+

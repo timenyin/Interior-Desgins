@@ -1,0 +1,416 @@
+/**************section 1 and 2**************/
+#set1{
+     padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     color: $color-grey-light-3;
+    font-family: $font-display;
+
+}
+
+#set1 p {
+    font-size: 18px;
+}
+#set2 {
+     padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: $color-grey-light-3;
+    font-family: $font-display;
+    
+}
+
+#set2 p {
+    font-size: 18px;
+}
+
+/***************About******/
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #efefef !important;
+
+}
+
+//============ accordion=====================
+#accordion h5 {
+    color: $color-primary-dark !important;
+}
+.card-bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: $color-primary-dark !important;
+}
+
+/*==========================SERVICES SECTION ======================*/
+
+.services-area{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 10px; 
+    font-family: $font-display;
+    
+}
+
+.services-area{
+    margin-bottom: -5px;    
+    
+}
+
+.services-warp {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    border-radius: 10%;
+    
+}
+ 
+
+.services-warp::before, .services-warp::after{
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color:$color-grey-dark-1;
+    
+}
+
+/*=============@media only screen SERVICES SECTION ==============*/
+/*small tabs to tablets from 1000px ****/
+@media only screen and (max-width:1000px){
+   
+    .services-warp::before, .services-warp::after{
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color:$color-grey-dark-1;
+} 
+    
+} 
+
+/*small phone to tablets from 480-767px ****/
+@media only screen and (max-width:767px){
+   
+    .services-warp::before, .services-warp::after{
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color:$color-grey-dark-1;
+} 
+    
+}
+
+@media screen and (max-width:576px) {
+
+.services-warp::before, .services-warp::after{
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+   background-color:$color-grey-dark-1;
+    
+}
+
+
+
+}
+
+
+.services-warp::before{
+    top: -37px;
+    left: 100%;
+}
+
+.services-warp::after{
+   right: 100%;
+    bottom: -37px;
+}
+
+.services-warp:hover:before{
+    left: -27px;
+    opacity: 1;
+}
+
+.services-warp:hover:after{
+   right: -27px;
+    opacity: 1;
+}
+
+
+
+.services-warp:hover{
+    color: white;
+}
+
+
+.services-warp:h3{
+    color: white;
+}
+
+
+
+.services-warp:hover h3:after{
+    background-color: white;
+}
+
+.service-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color:firebrick;
+}
+
+.services-warp:hover .service-icon{
+    transform: rotate(360deg);
+     color:white;
+}
+
+.services-warp h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+     color:firebrick;
+}
+
+
+.services-warp p{
+     font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+
+/******************TEAM*****************/
+#team{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+       url(../img/apartment.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   color:$color-grey-light-1 !important;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+#team .fa{
+   height: 30px;
+   width: 30px;
+   color:$color-header-firebrick;
+   padding: 9px;
+}
+
+#team .fa:hover{
+    color:$color-primary-dark-1;
+}
+
+
+.profile-pic{
+   margin-top: 25px;
+
+   
+}
+
+.profile-pic__text {
+    font-size: .7rem;
+    margin-top: -.6rem;
+}
+
+.profile-pic .img-box{
+   display: block;
+   position: relative;
+}
+
+.profile-pic .img-box img{
+   border-radius: 2%;
+}
+
+.profile-pic .img-box img:hover{
+   cursor: pointer;
+   border-radius: 2%
+       
+}
+
+.profile-pic h2{
+   font-size: 22px;
+   font-weight: bold;
+   margin: 15px;
+   color: $color-primary !important;
+}
+
+.profile-pic h3{
+   font-size: 15px;
+   margin: 15px;
+}
+
+
+
+
+
+.img-box ul{
+   padding: 10px 0;
+   position: absolute;
+   z-index: 2;
+   top: 130px;
+   left: 50%;
+   transform: translateX(-50%);
+   opacity: 0;
+   font-size: 30px
+   
+}
+
+.img-box ul li{
+   padding: 25px;
+   display: inline-block;
+}
+
+.img-box:hover ul{
+   opacity: 3;
+}
+
+.img-box ul, .img-box ul li{
+   transition: 0.5s;
+}
+
+
+/***************************testimonials****************/
+#testimonials{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+         url(../img/apartment.jpg);
+     background-size: cover;
+     background-position: center;
+     color: #efefef !important;
+     background-attachment: fixed;
+     padding-top: 50px;
+ }
+ 
+ 
+ #testimonials .row {
+     margin-top: 30px;
+     
+ }
+ 
+ .col-md-4{
+     margin: 40px auto;
+ }
+ 
+ .profile{
+     padding: 70px 10px 10px;
+     background-color:transparent;
+ }
+ 
+ .user{
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+ }
+ 
+ .profile img{
+     top: -60px;
+     position: absolute;
+     left: calc(50% - 60px);
+     border: 10px solid white;
+     border-bottom-color:$color-primary-dark-1;
+ }
+ 
+ .profile h3{
+     font-size: 20px;
+     margin-top: 15px;
+     color:$color-primary-dark-1;
+ }
+
+ .profile:hover{
+    box-shadow:5px 10px 30px $color-primary-dark-1;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    
+}
+ 
+ #testimonials cite{
+     font-size: 12px;
+     color:white;
+ }
+
+ /*****************contact***************/
+#contact{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+       url(../img/apartment.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #efefef !important;
+   background-attachment: fixed;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+#contact  .col-md-4 .card, .row11{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+       url(../img/apartment.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #efefef !important;
+   background-attachment: fixed;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+#blog {
+     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+       url(../img/apartment.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+    font-family: $font-display;
+}

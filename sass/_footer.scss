@@ -1,0 +1,103 @@
+/**************footer**************/
+#footer{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+      url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding: 100px;
+  color: $color-primary-dark-1;
+  z-index: 2;
+  
+
+}
+
+.footer-logo{
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+p {
+  padding: 5px;
+  margin: 5px;
+
+}
+
+#footer h1{
+  font-size: 20px;
+  text-align:center;
+  margin-bottom:0px;
+  margin-top:0px;
+  color: white !important;
+
+}
+#footer p{
+  font-size: 12px;
+  text-align: left;
+  float: left;
+}
+
+
+#footer .city{
+  margin-left: 37px;
+}
+
+
+#footer .row .fa{
+  padding-right: 20px;
+  font-size: 15px;
+   color:$color-primary; 
+  
+}
+
+#footer .fab {
+    margin-right: 14px;
+     color:$color-primary; 
+}
+
+#footer hr{
+  margin-top: 10px;
+}
+
+#footer .fa-bandcamp{
+   color:$color-primary; 
+  font-size: 17px;
+}
+
+#footer .copyright{
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+
+@media (max-width:768px){
+  .heading-text h1{
+      font-size:300%;
+  }
+  .fa{
+      font-size: 20px;
+      padding:10px;
+  }
+  .icon{
+      padding-top: 5%;
+      max-width: 100%;
+      
+  }
+}
+
+#text{
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: $color-primary-dark-1!important;
+}

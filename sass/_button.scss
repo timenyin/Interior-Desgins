@@ -1,0 +1,115 @@
+.btn {
+    color: $color-header-firebrick !important;
+    border: 1px solid $color-header-firebrick;
+    
+}
+
+.btn:hover {
+     color: $color-grey-light-1 !important;
+    border: 1px solid $color-header-firebrick;
+}
+
+.effect {
+    position: absolute;
+    display: block;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.effect:hover {
+     box-shadow:1px 1px 1px $color-primary-dark-1;
+}
+
+.effect span:nth-child(odd) {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: $color-primary-dark-1;
+    transition: 0.5s ease-in-out;
+    
+    
+}
+
+.effect span:nth-child(1) {
+    top: 0;
+    left: 50%;
+    
+}
+
+.effect span:nth-child(3) {
+    bottom: 0;
+    right: 50%;
+}
+
+/*========================HOVER EFFECT===========*/
+a:hover span:nth-child(1) {
+    top: 0;
+    left: -50%;
+    
+    
+}
+
+a:hover span:nth-child(3) {
+    bottom: 0;
+    right: -50%;
+}
+
+a span:nth-child(even) {
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: $color-primary-dark-1;
+    transition: 0.5s ease-in-out;
+    
+}
+
+a span:nth-child(2) {
+    top: 50%;
+    left: 0;
+    
+}
+
+a span:nth-child(4) {
+    bottom: 50%;
+    right: 0;
+}
+
+
+/*========================HOVER EFFECT===========*/
+
+a:hover span:nth-child(2) {
+    top: -50%;
+    left: 0;
+    
+}
+
+a:hover span:nth-child(4) {
+    bottom: -50%;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

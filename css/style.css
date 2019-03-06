@@ -1,0 +1,1093 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 20px; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #c9c0c0;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
+
+p {
+  font-family: "Nunito", sans-serif; }
+
+.fa-bars {
+  color: #B28451 !important; }
+
+.fa-arrow-circle-down {
+  color: #B28451 !important; }
+
+.ioc {
+  color: #f9f7f6;
+  opacity: 0.7s; }
+
+.ioc:hover {
+  color: #f5880c;
+  cursor: pointer;
+  transition: 0.7s;
+  opacity: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s; }
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 15px;
+  height: 90px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+.fa-icon {
+  font-size: 1.1rem;
+  color: #f7d309; }
+
+.fa-icon:hover {
+  color: #f5880c; }
+
+h1 {
+  text-align: center;
+  color: firebrick !important;
+  padding-bottom: 20px;
+  padding-top: 30px; }
+
+h1::after {
+  content: '';
+  background: firebrick;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px; }
+
+#home-heading-2 h3 a {
+  color: #f9f7f6 !important; }
+
+#home-heading-2 h3 a:hover {
+  color: #f5880c !important; }
+
+h3::after {
+  content: '';
+  background: #f9f7f6;
+  display: block;
+  height: 2px;
+  width: 170px;
+  margin: 10px auto 5px; }
+
+h4 {
+  color: #f9f7f6; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-image-1 {
+  background: url("../img/bodyimg1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/Homepage-Banner_GIF-3.gif");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-3 {
+  background: url("../img/ban_a.jpg");
+  background-size: cover; }
+
+.carousel-image-ft1 {
+  background: url("../img/liv8.jpeg");
+  background-size: cover; }
+
+.carousel-image-ft2 {
+  background: url("../img/liv2.jpg");
+  background-size: cover; }
+
+.carousel-image-ft3 {
+  background: url("../img/liv3.jpg");
+  background-size: cover; }
+
+.carousel-image-din1 {
+  background: url("../img/din-slider1.jpeg");
+  background-size: cover; }
+
+.carousel-image-din2 {
+  background: url("../img/din-slider2.jpeg");
+  background-size: cover; }
+
+.carousel-image-din3 {
+  background: url("../img/din-slider3.jpeg");
+  background-size: cover; }
+
+.carousel-image-bed1 {
+  background: url("../img/bed-slider2.jpeg");
+  background-size: cover; }
+
+.carousel-image-bed2 {
+  background: url("../img/bed-slider1.jpeg");
+  background-size: cover; }
+
+.carousel-image-bed3 {
+  background: url("../img/bed-slider3.jpeg");
+  background-size: cover; }
+
+.carousel-image-off1 {
+  background: url("../img/off-slide1.jpeg");
+  background-size: cover; }
+
+.carousel-image-off2 {
+  background: url("../img/off-slide2.jpeg");
+  background-size: cover; }
+
+.carousel-image-off3 {
+  background: url("../img/off-slide3.jpeg");
+  background-size: cover; }
+
+.carousel-image-audiophile-1 {
+  background: url("../img/autoSlider1.jpg");
+  background-size: cover; }
+
+.carousel-image-audiophile-2 {
+  background: url("../img/slider2.jpg");
+  background-size: cover; }
+
+.carousel-image-interior-1 {
+  background: url("../img/interoblogsli1.jpg");
+  background-size: cover; }
+
+.carousel-image-interior-2 {
+  background: url("../img/interoblogsli2.jpg");
+  background-size: cover; }
+
+.carousel-image-making-1 {
+  background: url("../img/making1.jpeg");
+  background-size: cover; }
+
+.carousel-image-making-2 {
+  background: url("../img/making2.jpeg");
+  background-size: cover; }
+
+.carousel-image-homepage-1 {
+  background: linear-gradient(rgba(20, 26, 26, 0.3), rgba(20, 16, 16, 0.3)), url("../img/din-slider1.jpeg");
+  background-size: cover; }
+
+.carousel-image-homepage-2 {
+  background: linear-gradient(rgba(20, 26, 26, 0.3), rgba(20, 16, 16, 0.3)), url("../img/nightstand-set4.jpg");
+  background-size: cover; }
+
+.carousel-image-homepage-3 {
+  background: linear-gradient(rgba(20, 26, 26, 0.3), rgba(20, 16, 16, 0.3)), url("../img/carousel-image-homepage3.jpeg");
+  background-size: cover; }
+
+.carousel-image-homepage-4 {
+  background: linear-gradient(rgba(20, 26, 26, 0.3), rgba(20, 16, 16, 0.3)), url("../img/carousel-image-homepage4.jpeg");
+  background-size: cover; }
+
+.carousel-item-home {
+  height: 670px;
+  border-bottom: 3px solid firebrick; }
+
+.navbar {
+  background-image: url(../images/abdominal-exercise-abdominal-trainer-action-416747.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: -10px;
+  font-family: "Josefin Sans", sans-serif; }
+  .navbar__brand img {
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 1rem; }
+  .navbar__h6 {
+    color: firebrick;
+    font-size: .7rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+
+#navbarTop a {
+  text-decoration: none; }
+
+.navbar-nav li {
+  padding: 0 10px; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important; }
+
+.navbar-nav li a {
+  float: right;
+  text-align: left; }
+
+#navbarTop ul li a {
+  color: #f5880c; }
+
+#navbarTop ul li a:hover {
+  color: firebrick !important;
+  font-weight: bold;
+  transition: ease-in-out .4s;
+  -webkit-transition: ease-in-out .4s;
+  -moz-transition: ease-in-out .4s;
+  -ms-transition: ease-in-out .4s;
+  -o-transition: ease-in-out .4s; }
+
+.fa-align-center {
+  color: firebrick !important; }
+
+/*================NAVBAR ANIMATION==============*/
+.border-animation::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: firebrick !important;
+  position: relative;
+  display: block;
+  top: 3px;
+  transition: all .6s ease;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease; }
+
+.border-animation:hover::after {
+  width: 100%; }
+
+.menu-right-btn a {
+  color: sandybrown !important; }
+
+.menu-right-btn {
+  padding: 13px 46px;
+  margin-right: 4%;
+  background-image: url(../images/abdominal-exercise-abdominal-trainer-action-416747.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: sandybrown !important;
+  border-bottom: 2px solid black !important;
+  border-right: 2px solid black !important;
+  border-left: 2px solid black !important;
+  border-top: 2px solid black !important;
+  border-radius: 10%;
+  transition: all 800ms ease-in;
+  border-radius: 40px 0px 40px 0px; }
+
+.menu-right-btn:hover {
+  color: black !important;
+  padding: 13px 46px;
+  margin-right: 4%;
+  background-color: black !important;
+  background-image: none; }
+
+#home-heading {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#home-heading p {
+  text-align: center;
+  color: #c9c0c0;
+  font-family: "Josefin Sans", sans-serif; }
+
+#home-heading-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#home-heading-2 p {
+  text-align: center;
+  color: #c9c0c0;
+  font-family: "Josefin Sans", sans-serif; }
+
+#page-header-blog {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+  color: #c9c0c0;
+  font-family: "Josefin Sans", sans-serif; }
+
+.btn {
+  color: firebrick !important;
+  border: 1px solid firebrick; }
+
+.btn:hover {
+  color: #f9f7f6 !important;
+  border: 1px solid firebrick; }
+
+.effect {
+  position: absolute;
+  display: block;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 2px;
+  overflow: hidden; }
+
+.effect:hover {
+  box-shadow: 1px 1px 1px #f5880c; }
+
+.effect span:nth-child(odd) {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f5880c;
+  transition: 0.5s ease-in-out; }
+
+.effect span:nth-child(1) {
+  top: 0;
+  left: 50%; }
+
+.effect span:nth-child(3) {
+  bottom: 0;
+  right: 50%; }
+
+/*========================HOVER EFFECT===========*/
+a:hover span:nth-child(1) {
+  top: 0;
+  left: -50%; }
+
+a:hover span:nth-child(3) {
+  bottom: 0;
+  right: -50%; }
+
+a span:nth-child(even) {
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #f5880c;
+  transition: 0.5s ease-in-out; }
+
+a span:nth-child(2) {
+  top: 50%;
+  left: 0; }
+
+a span:nth-child(4) {
+  bottom: 50%;
+  right: 0; }
+
+/*========================HOVER EFFECT===========*/
+a:hover span:nth-child(2) {
+  top: -50%;
+  left: 0; }
+
+a:hover span:nth-child(4) {
+  bottom: -50%;
+  right: 0; }
+
+/**************section 1 and 2**************/
+#set1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #c9c0c0;
+  font-family: "Josefin Sans", sans-serif; }
+
+#set1 p {
+  font-size: 18px; }
+
+#set2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #c9c0c0;
+  font-family: "Josefin Sans", sans-serif; }
+
+#set2 p {
+  font-size: 18px; }
+
+/***************About******/
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #efefef !important; }
+
+#accordion h5 {
+  color: #B28451 !important; }
+
+.card-bg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #B28451 !important; }
+
+/*==========================SERVICES SECTION ======================*/
+.services-area {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 10px;
+  font-family: "Josefin Sans", sans-serif; }
+
+.services-area {
+  margin-bottom: -5px; }
+
+.services-warp {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 25px 35px;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  z-index: 9;
+  margin-top: 20px;
+  border-radius: 10%; }
+
+.services-warp::before, .services-warp::after {
+  content: " ";
+  height: 300%;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 120%;
+  z-index: -9;
+  transition: all 0.8s;
+  opacity: 0;
+  background-color: #54483A; }
+
+/*=============@media only screen SERVICES SECTION ==============*/
+/*small tabs to tablets from 1000px ****/
+@media only screen and (max-width: 1000px) {
+  .services-warp::before, .services-warp::after {
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color: #54483A; } }
+
+/*small phone to tablets from 480-767px ****/
+@media only screen and (max-width: 767px) {
+  .services-warp::before, .services-warp::after {
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color: #54483A; } }
+
+@media screen and (max-width: 576px) {
+  .services-warp::before, .services-warp::after {
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color: #54483A; } }
+
+.services-warp::before {
+  top: -37px;
+  left: 100%; }
+
+.services-warp::after {
+  right: 100%;
+  bottom: -37px; }
+
+.services-warp:hover:before {
+  left: -27px;
+  opacity: 1; }
+
+.services-warp:hover:after {
+  right: -27px;
+  opacity: 1; }
+
+.services-warp:hover {
+  color: white; }
+
+.services-warp:h3 {
+  color: white; }
+
+.services-warp:hover h3:after {
+  background-color: white; }
+
+.service-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: firebrick; }
+
+.services-warp:hover .service-icon {
+  transform: rotate(360deg);
+  color: white; }
+
+.services-warp h3 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  position: relative;
+  color: firebrick; }
+
+.services-warp p {
+  font-size: 14px;
+  margin-bottom: 0; }
+
+/******************TEAM*****************/
+#team {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f9f7f6 !important;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#team .fa {
+  height: 30px;
+  width: 30px;
+  color: firebrick;
+  padding: 9px; }
+
+#team .fa:hover {
+  color: #f5880c; }
+
+.profile-pic {
+  margin-top: 25px; }
+
+.profile-pic__text {
+  font-size: .7rem;
+  margin-top: -.6rem; }
+
+.profile-pic .img-box {
+  display: block;
+  position: relative; }
+
+.profile-pic .img-box img {
+  border-radius: 2%; }
+
+.profile-pic .img-box img:hover {
+  cursor: pointer;
+  border-radius: 2%; }
+
+.profile-pic h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px;
+  color: #c69963 !important; }
+
+.profile-pic h3 {
+  font-size: 15px;
+  margin: 15px; }
+
+.img-box ul {
+  padding: 10px 0;
+  position: absolute;
+  z-index: 2;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  font-size: 30px; }
+
+.img-box ul li {
+  padding: 25px;
+  display: inline-block; }
+
+.img-box:hover ul {
+  opacity: 3; }
+
+.img-box ul, .img-box ul li {
+  transition: 0.5s; }
+
+/***************************testimonials****************/
+#testimonials {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px; }
+
+#testimonials .row {
+  margin-top: 30px; }
+
+.col-md-4 {
+  margin: 40px auto; }
+
+.profile {
+  padding: 70px 10px 10px;
+  background-color: transparent; }
+
+.user {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; }
+
+.profile img {
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid white;
+  border-bottom-color: #f5880c; }
+
+.profile h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #f5880c; }
+
+.profile:hover {
+  box-shadow: 5px 10px 30px #f5880c;
+  cursor: pointer;
+  transition: 0.5s; }
+
+#testimonials cite {
+  font-size: 12px;
+  color: white; }
+
+/*****************contact***************/
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#contact .col-md-4 .card, .row11 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#blog {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Josefin Sans", sans-serif; }
+
+.main-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.col-sm-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.col-sm-4 {
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#gallery-menu a {
+  text-decoration: none; }
+
+#gallery-menu ul {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.nav-item-gy {
+  border-left: #B28451 0.2rem solid;
+  border-right: #B28451 0.2rem solid; }
+
+#gallery-menu .nav-item-gy:hover,
+#gallery-menu .nav-item-gy:visited {
+  border-left: #B28451 2rem solid;
+  border-right: none;
+  transition: ease-in-out .8s;
+  -webkit-transition: ease-in-out .8s;
+  -moz-transition: ease-in-out .8s;
+  -ms-transition: ease-in-out .8s;
+  -o-transition: ease-in-out .8s; }
+
+#gallery-menu a {
+  color: #f5880c; }
+
+#gallery-menu a:hover {
+  color: firebrick; }
+
+#gallery-menu ul li {
+  list-style: none;
+  padding: 1rem 0; }
+
+#gallery-menu .active a {
+  color: #f9f7f6; }
+
+#gallery-menu .card-header {
+  color: #f9f7f6;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#gallery-menu .card-header:hover {
+  cursor: pointer; }
+
+#gallery-menu .card {
+  border: none;
+  padding: 0;
+  margin: 1.2rem 0; }
+
+#gallery-menu .card-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border: none; }
+
+#mycarousel {
+  padding-top: 1rem;
+  margin: 0; }
+
+.detals-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  margin-right: .5rem; }
+
+.profile-pic li {
+  display: inline;
+  font-size: 1.5rem;
+  margin-right: 30px; }
+
+.profile-pic a:hover {
+  color: #f5880c; }
+
+.pro-name a {
+  color: #f7d309 !important;
+  font-size: 1.1rem;
+  text-decoration: underline; }
+
+.pro-name a:hover {
+  text-decoration: underline !important; }
+
+.pro-cost {
+  color: #c69963;
+  font-size: 1.5rem; }
+
+.pro-detalis {
+  color: #f9f7f6; }
+
+.text-gallery-heading {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.profile-gallery li {
+  display: inline;
+  font-size: 1.4rem;
+  margin-right: 20px; }
+
+.profile-gallery {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f9f7f6; }
+
+.profile-gallery:hover,
+.profile-gallery:visited {
+  box-shadow: 5px 10px 30px #f7d309;
+  cursor: pointer;
+  transition: 0.5s; }
+
+.profile-gallery footer {
+  box-shadow: 5px 10px 30px #f7d309;
+  padding-top: 2rem; }
+
+profile-gallery .card-body {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+#cite-ft {
+  color: #f7d309;
+  text-decoration: underline;
+  font-size: .7rem; }
+
+#cite-ftd {
+  color: #B28451; }
+
+#col-blog-8 {
+  color: card-profile-gallery;
+  font-family: "Josefin Sans", sans-serif; }
+
+#gallery-pictures {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.card-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.gallary-store {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.search-box {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f5880c; }
+
+/*====================StoreItems ===============================*/
+.single-item {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear; }
+
+.store-items h5 {
+  color: #f5880c;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  font-size: 14px !important; }
+
+#store-item-value {
+  font-size: 18px !important;
+  color: firebrick; }
+
+.card-body-col {
+  -webkit-box-shadow: 0 10px 15px #f5880c;
+  box-shadow: 0 10px 5px #f5880c; }
+
+.gallery-txt {
+  font-size: 13px; }
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; }
+
+.single-item {
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear; }
+
+.store-img {
+  transition: all 3s ease-in-out;
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  -ms-transition: all 3s ease-in-out;
+  -o-transition: all 3s ease-in-out; }
+
+.img-container:hover .store-img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2); }
+
+.store-item-icon {
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  color: firebrick;
+  background: transparent;
+  border-top-left-radius: 1rem;
+  transition: all .9s ease-in-out;
+  -webkit-transition: all .9s ease-in-out;
+  -moz-transition: all .9s ease-in-out;
+  -ms-transition: all .9s ease-in-out;
+  -o-transition: all .9s ease-in-out;
+  transform: translate(100%, 100%);
+  -webkit-transform: translate(100%, 100%);
+  -moz-transform: translate(100%, 100%);
+  -ms-transform: translate(100%, 100%);
+  -o-transform: translate(100%, 100%); }
+
+.img-container:hover .store-item-icon {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0); }
+
+.store-item-icon:hover {
+  color: #f5880c; }
+
+/**************footer**************/
+#footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding: 100px;
+  color: #f5880c;
+  z-index: 2; }
+
+.footer-logo {
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 15px; }
+
+p {
+  padding: 5px;
+  margin: 5px; }
+
+#footer h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: white !important; }
+
+#footer p {
+  font-size: 12px;
+  text-align: left;
+  float: left; }
+
+#footer .city {
+  margin-left: 37px; }
+
+#footer .row .fa {
+  padding-right: 20px;
+  font-size: 15px;
+  color: #c69963; }
+
+#footer .fab {
+  margin-right: 14px;
+  color: #c69963; }
+
+#footer hr {
+  margin-top: 10px; }
+
+#footer .fa-bandcamp {
+  color: #c69963;
+  font-size: 17px; }
+
+#footer .copyright {
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 15px; }
+
+@media (max-width: 768px) {
+  .heading-text h1 {
+    font-size: 300%; }
+  .fa {
+    font-size: 20px;
+    padding: 10px; }
+  .icon {
+    padding-top: 5%;
+    max-width: 100%; } }
+
+#text {
+  text-decoration: none;
+  color: black; }
+
+.btn:hover {
+  background-color: transparent;
+  color: #f5880c !important; }
+
+.blog {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2rem 0 2rem 0; }
+  .blog__text {
+    color: #f9f7f6; }
+  .blog__card {
+    padding: 0; }
+  .blog__card-heading {
+    color: #f5880c; }
+  .blog__card-text {
+    color: #f9f7f6; }
+  .blog__footer-text {
+    color: #f5880c; }
+
+.blog-sm {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .blog-sm__card-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+  .blog-sm__card-title {
+    color: #f5880c; }
+  .blog-sm__text {
+    color: #f9f7f6;
+    font-size: 14px;
+    font-weight: 300; }
+  .blog-sm__footer {
+    color: #f5880c !important; }

@@ -1,0 +1,176 @@
+.navbar {
+    background-image: url(../images/abdominal-exercise-abdominal-trainer-action-416747.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -10px;
+   font-family: $font-display;
+
+    &__brand img  {
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 1rem;
+    }
+
+&__h6 {
+
+    color:$color-header-firebrick;
+    font-size: .7rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+   
+    }
+}
+
+#navbarTop  a {
+    text-decoration: none;
+}
+
+.navbar-nav li{
+    padding: 0 10px; 
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; 
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    
+}
+
+.navbar .nav-item {
+
+}
+#navbarTop ul li a{
+    color:$color-primary-dark-1;
+}
+#navbarTop ul li a:hover{
+    color:$color-header-firebrick !important;
+    font-weight: bold;
+    transition:ease-in-out .4s;
+    -webkit-transition:ease-in-out .4s;
+    -moz-transition:ease-in-out .4s;
+    -ms-transition:ease-in-out .4s;
+    -o-transition:ease-in-out .4s;
+    
+}
+
+.fa-align-center {
+    color: firebrick !important;  
+}
+/*================NAVBAR ANIMATION==============*/
+
+.border-animation::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color:$color-header-firebrick !important;
+  position: relative;
+  display: block;
+  top: 3px;
+  transition: all .6s ease;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+}
+
+.border-animation:hover::after {
+  width: 100%;
+}
+
+
+.menu-right-btn a {
+    color: sandybrown !important; 
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-image: url(../images/abdominal-exercise-abdominal-trainer-action-416747.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: sandybrown !important;
+    border-bottom: 2px solid black !important;
+    border-right: 2px solid black !important;
+    border-left: 2px solid black !important;
+    border-top:2px solid black !important;
+    border-radius: 10%;
+    transition: all 800ms ease-in;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.menu-right-btn:hover{
+    color: black !important;
+     padding: 13px 46px;
+    margin-right: 4%;
+    background-color: black !important;
+     background-image:none;
+}
+
+
+
+//****************top heading**************/
+#home-heading {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+#home-heading p {
+    text-align: center;
+    color: $color-grey-light-3;
+    font-family: $font-display;
+}
+
+#home-heading-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: $font-display;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home-heading-2 p {
+    text-align: center;
+    color: $color-grey-light-3;
+    font-family: $font-display;
+}
+
+//===============================BLOG HEADER=============================
+
+#page-header-blog {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../img/apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10rem;
+    color: $color-grey-light-3;
+    font-family: $font-display;
+}
+
+
+
